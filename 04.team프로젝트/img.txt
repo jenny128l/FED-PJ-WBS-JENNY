@@ -1,0 +1,15 @@
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+a, img, input, select, button {
+    vertical-align: middle;
+}
+fieldset, img {
+    border: 0 none;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;

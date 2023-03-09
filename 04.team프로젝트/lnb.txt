@@ -1,0 +1,96 @@
+                    <!-- lnb -->
+                    <div class="lnb_tab brand">
+        <ul>
+            <li ><a href="/ko/brand/intro.asp">브랜드 소개</a>
+                <div class="sub">
+                    <div class="inner">
+                        <span class="ctrl"><span class="arrow"></span></span>
+                        <button type="button" class="my_value">브랜드소개</button>
+                        <ul>
+                            <li ><a href="/ko/brand/intro.asp">브랜드소개</a></li>
+                            <li ><a href="/ko/brand/b_history.asp">히스토리</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li ><a href="/ko/brand/shop.asp">매장 소개</a-->
+                <!--div class="sub">
+                    <div class="inner">
+                        <span class="ctrl"><span class="arrow"></span></span>
+                        <button type="button" class="my_value">국내</button>
+                        <ul>
+                            <li ><a href="/ko/brand/shop.asp">국내</a></li>
+                            <li ><a href="/ko/brand/shopGlobal.asp">해외</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>-->
+            <li ><a href="/ko/community/news/list.asp">페리 뉴스</a></li>
+            <li class='on'><a href="/ko/brand/company.asp">㈜클리오 기업소개</a></li>
+        </ul>
+    </div>
+                    <!-- //lnb -->
+
+
+/*  lnb  */
+.lnbArea{position:absolute;top:0;left:0;width:200px;text-align:center;overflow:hidden;display:block;}
+.lnbArea hgroup{margin:0 0 21px;}
+.lnbArea hgroup h2{color:#fff;height:53px;line-height:53px;background:#ee427c url(/ko/images/lnb/pc_hgroup_h2_bg.png) no-repeat 50% 50%;}
+.lnbArea hgroup h2 span{font-size:20px;font-weight:400;line-height:normal;display:inline-block;vertical-align:middle;margin-top:-3px;}
+.lnbArea ul	{display:block;}
+.lnbArea ul li {display:block;text-align:left;}
+.lnbArea ul li a{display:block;padding:0 5px;border-bottom:1px solid #dcdcdc;color:#1e1e1e;font-size:14px;line-height:30px;font-weight:600;height:30px;}
+.lnbArea ul li a:hover{color:#e1425d;}
+.lnbArea ul li.on a{color:#e1425d;}
+.lnbArea .sub ul{padding:5px;border-bottom:1px solid #dcdcdc;}
+.lnbArea .sub ul li a{border:0 none;font-size:13px;line-height:20px;height:20px;color:#8c8c8c;}
+.lnbArea .sub ul li a:hover,
+.lnbArea .sub ul li.on a{color:#e1425d;}
+.lnb_tab{width:1000px;margin:0 auto 100px}
+.lnb_tab>ul>li{height:40px;line-height:40px;margin:0 0 0 -1px;text-align:center}
+.lnb_tab.brand>ul>li{width:25%}
+.lnb_tab>ul>li a{border-top:1px solid #e4e4e4}
+.lnb_tab>ul>li:hover a,
+.lnb_tab>ul>li.on a{font-weight:600;background:#e1425d;color:#fff;border-top:1px solid #e1425d}
+.lnb_tab>ul>li .sub{width:1000px;margin:0 auto !important;border-bottom:1px solid #e4e4e4;}
+.lnb_tab>ul>li .sub .ctrl,
+.lnb_tab>ul>li .sub .my_value{display:none;}
+.lnb_tab>ul>li .sub ul{position:relative;top:0;display:block;text-align:center;border:0;}
+.lnb_tab>ul>li .sub ul li{display:inline-block;position:relative;width:auto;line-height:40px;border:0;}
+.lnb_tab>ul>li .sub ul li a{padding:0 20px;font-size:13px;color:#6c6c6c;}
+.lnb_tab>ul>li .sub ul li:after{position:absolute;right:0;top:50%;width:1px;height:12px;margin:-6px 0 0;background:#a7a7a7;content:'';}
+.lnb_tab>ul>li .sub ul li:last-child:after{width:0;}
+.lnb_tab>ul>li .sub ul li.on a{line-height:38px;border-bottom:2px solid #e1425d;text-decoration:none;}
+
+/* brand */
+.company_area{max-width:770px;}
+.company_area a{height:43px;}
+.company_area a.link_clio{top:668px;left:119px;width:159px;}
+.company_area a.link_peripera{top:668px;left:287px;width:196px;}
+.company_area a.link_goodal{top:668px;left:492px;width:174px;}
+
+/* 200504 ch */
+.about{}
+.about .company_top{}
+.about .company_top .logo_bg{}
+.about .company_top .bg{margin:20px 0 40px;padding:0 40px 0;height:240px;background:url(/ko/images/about/company_bg.jpg) no-repeat center;background-size:cover}
+.about .company_top .bg p{padding-top:35px;font-size:14px;line-height:20px}
+.about .company_top .bg p strong{margin-bottom:15px;font-size:40px;line-height:42px}
+.about .company_top .bg a{width:175px;height:40px;font-size:12px;line-height:40px;border:2px solid #fff}
+.about .company_top .company_btn{margin-bottom:55px}
+.about .company_top .company_btn a{width:300px;height:60px;font-size:16px;line-height:60px}
+/* //200504 ch */
+
+.content_letter .board_srch{margin:0 0 30px;}
+.content_letter .select_area{width:350px;}
+
+.history_area{margin:40px 0 0;}
+.history_area .tit{font-size:20px;color:#3e3e3e;}
+.history_area li{display:inline-block;float:left;width:235px;min-width:235px;height:300px;min-height:300px;margin:0 20px 20px 0;}
+.history_area li.con2{width:464px;min-width:464px;}
+.history_area li.last{margin-right:0;}
+.history_area li .date{margin:0 0 20px;font-weight:600;color:#000;line-height:1.5em;font-size:22px;text-align:center;border-bottom:5px solid #262626;}
+.history_area li ul{padding:0 12px;}
+.history_area li li{float:left;display:inline-block;width:180px;min-width:180px;margin:0 20px !important;text-align:center;}
+.history_area li li dt{width:157px;margin:0 auto 20px;}
+.history_area li li dd{color:#000;}
