@@ -1,0 +1,58 @@
+element.style {
+}
+media="screen and (min-width: 768px)"
+.about .company_top .bg {
+    margin: 20px 0 40px;
+    padding: 0 40px 0;
+    height: 240px;
+    background: url(../images/images-company/company_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.about .company_top .bg {
+    position: relative;
+    margin: 10px 0 20px;
+    padding: 25px 20px;
+    background: url(../images/images-company/company_bg.jpg) no-repeat center;
+    background-size: cover;
+    text-align: left;
+}
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, pre, menu {
+    margin: 0;
+    padding: 0;
+}
+
+.company_top .bg {
+  position: relative;
+  margin: 10px 0 20px;
+  padding: 25px 20px;
+  background: url(./images/images-company/company_bg.jpg) no-repeat center;
+  background-size: cover;
+  text-align: left;
+
+
+
+<!-- quick -->
+	<article class="quick mb_hidden">
+		<ul>
+			<li>
+				<div class="icon bi"><img src="/ko/images/default/pc_quick_tit.png" alt="peripera" /></div>
+			</li>
+			<li><a href="http://clubclio.co.kr/" target="_blank">
+				<div class="icon"><img src="/ko/images/default/pc_quick_pp.png" alt="CLUB CLIO" class="quick1" /></div>
+				클럽클리오
+			</a></li>
+			<li><a href="https://www.facebook.com/periperakr/" target="_blank">
+				<div class="icon"><img src="/ko/images/default/pc_quick_pp.png" alt="페이스북" class="quick2" /></div>
+				페이스북
+			</a></li>
+			<li><a href="https://www.instagram.com/peripera_official/" target="_blank">
+				<div class="icon"><img src="/ko/images/default/pc_quick_pp.png" alt="인스타그램" class="quick3" /></div>
+				인스타그램
+			</a></li>
+			<li><a href="https://www.youtube.com/channel/UCMCqPB0-6Zswh8aRvQvW7ww" target="_blank">
+				<div class="icon"><img src="/ko/images/default/pc_quick_pp.png" alt="유투브" class="quick4" /></div>
+				유투브
+			</a></li>
+		</ul>
+		<a href="#" class="top">TOP</a>
+	</article>

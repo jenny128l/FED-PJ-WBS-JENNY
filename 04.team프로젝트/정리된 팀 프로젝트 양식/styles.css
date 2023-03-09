@@ -20,3 +20,15 @@ main {
 }
 
 
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, pre, menu {
+  margin: 0;
+  padding: 0;
+}
+
+html,body{min-width:1200px;height:auto;min-height:100%;overflow:auto;}
+.wrapper{overflow:hidden;}
+.contents_wrap{padding:107px 0 0;}
+.contents{width:1000px;min-height:300px;margin:0 auto;padding:0 0 130px;text-align:left;}
+.content{margin:0;display:block;}
+.content>p{text-align:center}
+
