@@ -37,6 +37,66 @@ html,body{min-width:1200px;height:auto;min-height:100%;overflow:auto;}
 
 .content>p{text-align:center}
 
+
+/* media="screen and (min-width: 768px)" */
+.tit_cat{
+  margin-bottom: 40px;
+}
+.tit_cat hgroup h2 {
+    line-height: 34px;
+    font-size: 24px;
+}
+.tit_cat hgroup h2 {
+    line-height: 40px;
+    font-size: 18px;
+    color: #1e1e1e;
+}
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: 600;
+}
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, pre, menu {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* media="screen and (min-width: 768px)" */
+.contents {
+    width: 1000px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 0 0 130px;
+    text-align: left;
+}
+.wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+body {
+    background: #fff;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+    -webkit-text-stroke-width: 0.1px;
+    font-family: 'Nanum Gothic','Droid Sans','Apple-Gothic',sans-serif;
+    font-size: 12px;
+    line-height: 1.66666em;
+    color: #5c5c5c;
+    letter-spacing: -0.05em;
+    -webkit-letter-spacing: -0.05em;
+}
+
 img {
   border: 0;
   max-width: 100%;
