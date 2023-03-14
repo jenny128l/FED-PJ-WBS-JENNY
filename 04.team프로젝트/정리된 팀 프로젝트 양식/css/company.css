@@ -16,8 +16,8 @@ body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, for
   margin: 0;
   padding: 0;
 }
-
-html,body{min-width:1200px;height:auto;min-height:100%;overflow:auto;}
+/* 
+html,body{min-width:1200px;height:auto;min-height:100%;overflow:auto;} */
 
 .wrapper{overflow:hidden;}
 
@@ -63,7 +63,7 @@ h2 {
 
 /* media="screen and (min-width: 768px)" */
 .contents {
-    width: 1000px;
+    min-width: 1000px;
     min-height: 300px;
     margin: 0 auto;
     padding: 0 0 130px;
