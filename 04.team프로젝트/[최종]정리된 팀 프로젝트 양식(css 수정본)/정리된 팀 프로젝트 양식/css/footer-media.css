@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* 푸터미디어쿼리 footer-media.css */
+
 @media screen and (max-width: 767px) {
     #footer{
         background-color: #fff;

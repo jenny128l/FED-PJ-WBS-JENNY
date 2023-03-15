@@ -1,4 +1,6 @@
-@charset "UTF-8";
+@charset "utf-8";
+
+/* 서브페이지 뉴스 미디어쿼리 CSS - news-media.css */
 
 @media screen and (max-width: 1000px) {
     main{

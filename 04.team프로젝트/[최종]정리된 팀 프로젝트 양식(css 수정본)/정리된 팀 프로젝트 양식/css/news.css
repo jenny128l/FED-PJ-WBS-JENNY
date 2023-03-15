@@ -1,4 +1,6 @@
-@charset "UTF-8";
+@charset "utf-8";
+
+/* 서브페이지 뉴스 CSS - news.css */
 
 main{
     text-align: center;
@@ -17,7 +19,7 @@ main{
 }
 .tit_wrap h2{
     display: inline-block;
-    font-size: 30px;
+    font-size: 24px;
 }
 .tit_wrap h5{
     display: inline-block;
