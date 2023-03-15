@@ -7,10 +7,11 @@ html,body,h1,h2,h3,h4,h5,h6,p, section,div, header, main, footer, address,dl,dt,
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
 
 body{
-    font-size: 12px;
+    font-size: 13px;
     color: #5c5c5c;
     font-family: "Nanum Gothic";
-    letter-spacing: -0.05em;
+    line-height: 1.2;
+    /* letter-spacing: -0.05em; */
 }
 ol,ul,li,dl,dd,dt{
     list-style: none;

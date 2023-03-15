@@ -105,9 +105,9 @@ img, hr {
 }
 
 
-body, p, div, ul, li, dl, dt, dd, ol, fieldset, textarea, input, select, table, th, td, address, cite, h1, h2, h3, h4, h5, h6, strong, b, label, button {
+/* body, p, div, ul, li, dl, dt, dd, ol, fieldset, textarea, input, select, table, th, td, address, cite, h1, h2, h3, h4, h5, h6, strong, b, label, button {
   font-family: 'Noto Sans KR', sans-serif;
-}
+} */
 .aboutus .way_top {
   padding: 50px 0 100px;
   background: #99877b;
