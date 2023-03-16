@@ -1,0 +1,20 @@
+﻿@font-face {
+    font-family: 'eng_r';
+    src: url('arial.eot');
+    src: local(※), url('arial.woff') format('woff')
+}
+@font-face {
+    font-family: 'eng_b';
+    src: url('arialbd.eot');
+    src: local(※), url('arialbd.woff') format('woff')
+}
+@font-face {
+    font-family: 'kor_r';
+    src: url('NanumBarunGothic.eot');
+    src: local(※), url('NanumBarunGothic.woff') format('woff')
+}
+@font-face {
+    font-family: 'kor_l';
+    src: url('NanumBarunGothicLight.eot');
+    src: local(※), url('NanumBarunGothicLight.woff') format('woff')
+}

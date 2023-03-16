@@ -1,0 +1,22 @@
+
+		$('#popSlider').bxSlider({
+			 auto: true,
+  		autoControls: true,
+  		pager: false,
+  		startText: '재생',
+  		stopText: '정지',
+  		nextText : '다음',
+  		prevText : '이전'
+		});
+		
+		// 2017.02.25 비주얼 슬라이더 스크립트
+		$('#mSlider').bxSlider({
+			controls : false,
+			auto: true,
+			pause : 3000,
+			autoControls: true,
+			pager: true,
+			startText: '재생',
+			startText: '정지'
+		});
+	

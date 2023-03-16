@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SAMSUNG SDS</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="font/font.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!--jQuery 라이브러리 파일 연결 -->
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!--bxslider 플러그인 파일 연결 -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slide').bxSlider({
+				mode:'fade',
+				auto:true,
+				speed:1000,/*1초*/
+				pager:false,
+				controls:false
+			})
+		});
+	</script>
+	
+	<!--menu-->
+	<script>
+		$(document).ready(function(){
+			$('#gnb').mouseenter(function(){
+				$('.sub_box').stop(true).slideDown(300);
+			});
+			$('#gnb').mouseleave(function(){
+				$('.sub_box').stop(true).slideUp(300);
+			});
+		});
+	</script>
+
+
+		<script>
+		$(document).ready(function(){
+			var btn_sn = 0;//현재상태 
+			$('.btn').click(function(){
+				switch(btn_sn) {
+					case 0 :
+						btn_sn=1;
+						$('.btn img').attr("src", "icons/down_usb.png");
+						$('.sitemap_box').stop().slideDown(100);
+					break;
+					case 1 :
+						btn_sn=0;
+						$('.btn img').attr("src", "icons/up_usb.png");
+						$('.sitemap_box').stop().slideUp(100);
+					break;		
+				}	
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<div id="wrap">
+		<header id="header">
+			<div class="hd_wrap">
+				<h1 class="logo">
+					<a href="">
+						<img src="images/logo.png" alt="logo">
+					</a>
+				</h1>
+				<nav id="gnb">
+					<div class="gnb_box">
+						<div class="sub_menu1">
+							<ul class="menu">
+								<li><a href="">솔루션</a></li>
+								<li><a href="">회사정보</a></li>
+							</ul>
+						</div><!--sub_menu1-->
+					</div><!--div.gnb_box end-->
+					<div class="sub_box">
+						<div class="sub_menu2">
+							<ul>
+								<li><a href="" class="sub_title">Top of Mind</a></li>
+								<li><a href="">애널리틱스</a></li>
+								<li><a href="">클라우드</a></li>
+								<li><a href="">엔터프라이즈 모빌리티</a></li>
+								<li><a href="">사물인터넷</a></li>
+							</ul>
+						</div><!--sub_menu2-->
+						<div class="sub_menu3">
+							<ul>
+								<li><a href="" class="sub_title">Industry</a></li>
+								<li><a href="">금융</a></li>
+								<li><a href="">공공</a></li>
+								<li><a href="">의료</a></li>
+								<li><a href="">제조</a></li>
+								<li><a href="">리테일</a></li>
+							</ul>
+						</div><!--sub_menu3-->
+						<div class="sub_menu4">
+							<ul>
+								<li><a href="" class="sub_title">Offerings</a></li>
+								<li><a href="">Samsung Square</a></li>
+								<li><a href="">Samsung Nexshop</a></li>
+								<li><a href="">Samsung Nexplant</a></li>
+								<li><a href="">모든 솔루션 보기</a></li>
+							</ul>
+						</div><!--sub_menu4-->
+						<div class="sub_menu5">
+							<ul>
+								<li><a href="" class="sub_title">회사소개</a></li>
+								<li><a href="">삼성SDS</a></li>
+								<li><a href="">비전</a></li>
+								<li><a href="">CEO</a></li>
+								<li><a href="">연혁</a></li>
+							</ul>
+						</div><!--sub_menu5-->
+						<div class="sub_menu6">
+							<ul>
+								<li><a href="" class="sub_title">사업장 소개</a></li>
+								<li><a href="">준법경영</a></li>
+								<li><a href="">윤리경영</a></li>
+								<li><a href="">투자정보</a></li>
+							</ul>
+						</div><!--sub_menu6-->
+						<div class="sub_menu7">
+							<ul>
+								<li><a href="" class="sub_title">이사회 및 위원회</a></li>
+								<li><a href="">주식정보</a></li>
+								<li><a href="">공시정보</a></li>
+								<li><a href="">재무정보</a></li>
+								<li><a href="">실적정보</a></li>
+								<li><a href="">알림판</a></li>
+							</ul>
+						</div><!--sub_menu7-->
+						<div class="sub_menu8">
+							<ul>
+								<li><a href="" class="sub_title">뉴스&이벤트</a></li>
+								<li><a href="">뉴스</a></li>
+								<li><a href="">이벤트</a></li>
+								<li><a href="">사회공헌</a></li>
+								<li><a href="">동반성장</a></li>
+								<li><a href="">채용</a></li>
+							</ul>
+						</div><!--sub_menu8-->
+					</div><!--sub_box-->			
+				</nav>
+				<div class="lang">
+					<select name="" id="family">
+						<option value="">Korea / 한국어</option>
+						<option value="">Global / English</option>
+						<option value="">Europe / English</option>
+						<option value="">China / 中文</option>
+						<option value="">USA / English</option>
+					</select>
+				</div><!--div.lang-->
+			</div><!--div.hd_wrap end-->
+		</header>
+		<div id="visual">
+			<ul class="slide">
+				<li><a href=""><img src="images/vs1.jpg" alt=""></a></li>
+				<li><a href=""><img src="images/vs2.jpg" alt=""></a></li>
+				<li><a href=""><img src="images/vs3.jpg" alt=""></a></li>
+				<li><a href=""><img src="images/vs4.jpg" alt=""></a></li>
+			</ul>
+			<div class="txt_box">
+				<p class="v_text1">
+					모바일 비즈니스를 위한
+				</p>
+				<h1 class="v_text2">
+					더 강력한 보안
+				</h1>
+				<p class="v_text3">
+					삼성 페이도 지원하는 쉽고 안전한 바이오 인증 솔루션.<br> 
+					이제 더 이상 비밀번호를 물어보지 마세요
+				</p>
+				<div class="v_text4">
+					<a href="">자세히 보기</a>
+				</div>
+			</div><!--txt_box-->
+		</div><!--div#visual end-->
+		<div id="content">
+			<div class="cont1">
+				<div class="ct_wrap">
+					<h1 class="cont1_title1">삼성그룹을 성공적으로 지원해온 바로 그 솔루션을 만나보세요.</h1>
+					<p class="cont1_title2">모빌리티부터 애널리틱스에 이르는 삼성SDS의 솔루션을 살펴보세요.</p>
+					<div class="cont1_img1">
+						<a href="" class="color1">
+							<img src="images/cont1_1.jpg" alt="">
+							<div class="cont1_box1">
+								<p class="txt">무정지(Fault-Tolerant) IT네트워크 서비스와 사용량 기반의 과금체계로 <br>삼성SDS의 맞춤형 클라우드 플랫폼에서 기업의 모든 데이터를 안전하게 저장하세요.</p>
+							</div>
+						</a>
+						<div class="cont1_wrap">
+							<div class="cont1_img1_txt1">
+								<span>[ 클라우드 ]</span>
+								<p class="cont1_text1">맞춤형 클라우드 서비스를 통해 기업의 경쟁력을 강화합니다.</p>
+							</div>
+							<a href="" class="color2">
+								<img src="images/cont1_2.jpg" alt="">
+								<div class="cont1_box2">
+									<p class="txt">안전하고 간편한 생체인식 인증 솔루션과 이동성을 높이는<br>모바일 협업 툴로 생산성을 향상시켜 보세요.</p>
+								</div>
+							</a>
+							<div class="cont1_img1_txt2">
+								<span>[ 사물인터넷 ]</span>
+								<p class="cont1_text1">편리한 데이터 취합 및 정확한 분석으로<br>더 스마트한 비즈니스 기회를 창출합니다.</p>
+							</div>
+							<a href="" class="color3">
+								<img src="images/cont1_3.jpg" alt="">
+								<div class="cont1_box3">
+									<p class="txt">지능형 데이터 분석 기반의 손쉬운 IoT 플랫폼으로 새로운 비즈니스 전략을 수립하세요.</p>
+								</div>
+							</a>
+							<div class="cont1_img1_txt3">
+								<span>[ 엔터프라이즈 모빌리티 ]</span>
+								<p class="cont1_text1">강력한 모바일 보안 솔루션으로 자유롭게 협업하세요.</p>
+							</div>
+						</div>
+					</div><!--cont1_img1-->
+				</div><!--cont1_ct_wrap-->
+			</div><!--cont1-->
+			<div class="cont2">
+				<div class="ct_wrap">
+					<h1 class="cont1_title1">업종별 특화 솔루션</h1>
+					<p class="cont1_title2">삼성SDS는 깊이 있고 풍부한 전문성을 바탕으로 다양한 업종을 지원하고 있습니다.<br>어떤 업종이라도 맞춤형 솔루션으로 지원이 가능합니다.</p>
+					<div class="cont2_icon1">
+						<a href="" class="color1">
+							<img src="icons/cont2_1.png" alt="">
+							<p class="cont2_txt">금융</p>
+							<div class="cont1_box4"></div>
+						</a>
+						<a href="" class="color1">
+							<img src="icons/cont2_2.png" alt="">
+							<p class="cont2_txt">공공</p>
+							<div class="cont1_box4"></div>
+						</a>
+						<a href="" class="color1">
+							<img src="icons/cont2_3.png" alt="">
+							<p class="cont2_txt">제조</p>
+							<div class="cont1_box4"></div>
+						</a>
+						<a href="" class="color1">
+							<img src="icons/cont2_4.png" alt="">
+							<p class="cont2_txt">의료</p>
+							<div class="cont1_box4"></div>
+						</a>
+						<a href="" class="color1">
+							<img src="icons/cont2_5.png" alt="">
+							<p class="cont2_txt">리테일</p>
+							<div class="cont1_box4"></div>
+						</a>
+					</div><!--cont2_icon1-->
+				</div><!--cont2_ct_wrap-->
+			</div><!--cont2-->
+			<div class="cont3">
+				<div class="ct_wrap">
+					<h1 class="cont1_title1">최신 소식</h1>
+					<p class="cont1_title2">삼성SDS의 새로운 소식을 확인하세요</p>
+					<div class="left_box">
+						<ul>
+							<li>_삼성SDS, 글로벌 금융시장 보안 솔루션 확대</li>
+							<li>_삼성SDS, 웨어러블 보안솔루션 개발</li>
+							<li>_삼성SDS, AI기반 스마트팩토리 솔루션 ‘넥스플랜트’ 출시</li>
+						</ul>
+						<div class="cont3_bar">
+							<img src="images/cont3_bar.jpg" alt="">
+						</div>
+						<a href="" class="left_box_txt">
+							<p>자세히 보기</p>
+						</a>
+					</div>
+					<div class="right_box">
+						<iframe width="560" height="300" src="https://www.youtube.com/embed/rgMQcow5l-Y" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<p class="play_txt">"삼성SDS Nexsign의 생체 인증을 통해 우리는 사용자 경험과 보안 모두 만족 할 수 있었습니다."<br>-닉 텔포드-리드, 월드페이</p>
+				</div><!--cont3_ct_wrap-->
+			</div><!--cont3-->
+		</div><!--div#content end-->
+		<footer id="footer">
+			<div class="sitemap_box">
+				<div class="sitemap_box_inner">
+					<div class="smcon1">
+						<p class="sm_title">서비스</p>
+						<ul>
+							<li><a href="">ITO</a></li>
+							<li><a href="">인프라서비스</a></li>
+							<li><a href="">물류BPO</a></li>
+						</ul>
+					</div><!--smcon1 end-->
+					<div class="smcon2">
+						<p class="sm_title">고객지원</p>
+						<ul>
+							<li><a href="">기술지원</a></li>
+							<li><a href="">라이브러리</a></li>
+							<li><a href="">서비스 이용약관</a></li>
+						</ul>
+					</div><!--smcon2 end-->
+					<div class="smcon3">
+						<p class="sm_title">패밀리 사이트</p>
+						<ul>
+							<li><a href="">스마트투게더닷컴</a></li>
+							<li><a href="">Smart Network Service</a></li>
+							<li><a href="">삼성 와이즈070</a></li>
+							<li><a href="">Knox Meeting</a></li>
+							<li><a href="">Cello Square</a></li>
+							<li><a href="">애니프레임</a></li>
+						</ul>	
+					</div><!--smcon3 end-->
+					<div class="smcon4">
+						<p class="sm_title">문의하기</p>
+						<span>서울시 송파구 올림픽로 35길 125<br><br>
+							삼성SDS타워 (05510)<br><br>
+							대표전화 : 02-6155-3114</span>
+					</div><!--div.smcon4 end-->
+					<div class="sns">
+						<ul>
+							<li><a href=""><img src="icons/sns1.png" alt=""></a></li>
+							<li><a href=""><img src="icons/sns2.png" alt=""></a></li>
+							<li><a href=""><img src="icons/sns3.png" alt=""></a></li>
+							<li><a href=""><img src="icons/sns4.png" alt=""></a></li>
+							<li><a href=""><img src="icons/sns5.png" alt=""></a></li>
+						</ul>
+					</div><!--sns-->
+				</div><!--div.sitemap_box_inner end-->
+				<div class="sitemap_box_inner2">
+					<div class="fnb_list">
+						<ul class="ft_fnb"> 
+							<li><a href="">개인정보처리방침</a></li>
+							<li><a href="">이용약관 </a></li>
+							<li><a href="">이메일무단수집거부</a></li>
+							<li><a href="">보안신고센터</a></li>
+							<li><a href="" class="last">부정제보</a></li>
+						</ul>
+					</div><!--fnb_list-->
+				</div><!--div.sitemap_box_inner2 end-->
+			</div><!--div.sitemap_box end-->
+			<div class="ft_wrap">
+				<div class="copy">
+					<p>Copyright ©2017 SAMSUNG SDS. All rights reserved</p>
+				</div>
+				<div class="btn">
+					<img src="icons/up_usb.png" alt="사이트맵">
+				</div>
+			</div>
+		</footer>
+	</div><!--div#wrap end-->
+</body>
+</html>
