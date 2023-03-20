@@ -1,0 +1,7 @@
+/*tag reset*/
+*{margin:0; padding:0;}
+li{list-style-type:none;}
+a{text-decoration:none; color:#1c1c1c;}
+img{border:0;}
+body{font-family:'나눔바른고딕','NanumBarunGohincLight', sans-serif;
+	color:#555;}

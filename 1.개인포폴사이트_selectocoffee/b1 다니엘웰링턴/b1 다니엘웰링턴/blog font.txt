@@ -1,0 +1,25 @@
+visa 
+<i class="fa fa-cc-visa" aria-hidden="true"></i>
+
+ American express
+<i class="fa fa-cc-amex" aria-hidden="true"></i>
+
+mastercard
+<i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+
+Ups
+
+instagram
+<i class="fa fa-instagram" aria-hidden="true"></i>
+
+facebook
+<i class="fa fa-facebook" aria-hidden="true"></i>
+
+twitter
+<i class="fa fa-twitter" aria-hidden="true"></i>
+
+pinterest
+<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+
+google+
+<i class="fa fa-google-plus" aria-hidden="true"></i>

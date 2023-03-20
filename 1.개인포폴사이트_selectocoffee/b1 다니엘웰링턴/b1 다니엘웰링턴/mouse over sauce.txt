@@ -1,0 +1,18 @@
+div.section
+ul.section1-1list
+
+li.main1
+div.zoomgb style="transform:matrix(1.01, 0, 0, 1.01,0,0);">
+<img src="" alt></div>
+
+div.over-area style="background-color:rgba(0,0,0,0);">
+div.overinner
+	p.icon style="opacity:1; margin-top:0px;"></p>
+	p.name style="opacity:1; margin-top:20px;">name</p>
+	
+	p.link style="opacity:0; margin-top:20px;">
+	a.btn_name href="" target="_self" or "_blank"></a>
+                </p>
+</div>
+</div>
+</li>
