@@ -16,6 +16,7 @@
 	padding-top:180px;
 }
 .hd_wrap, .ft_wrap{
+	/* width:1900px; */
 	width:1280px;
 	margin:0 auto;
 }
@@ -65,7 +66,7 @@
 }
 .sub_box{
 	clear:both;
-	width:100vw;
+	width:945px;
 	height:260px;
 	background-color: #fff; 
 	position:absolute;/**/
@@ -151,8 +152,8 @@
 	font-size:15px;
 	color:#fff;
 }
-.txt_box .v_text4:hover {
-	 background-color:#555; 
+.txt_box .v_text4:hover {  
+	background-color:#555; 
 }
 #visual{
 	margin-bottom:180px;
