@@ -3,14 +3,69 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SELECTO COFFEE</title>
+        <title>SELECTO COFFEE 작업중</title>
+          <!-- 파비콘 -->
+          <link
+          rel="shortcut icon"
+          href="https://www.selecto.co.kr/assets/images/icon/newlogo_f2.ico"
+          type="image/x-icon"/>
 
-        <!-- 파비콘 -->
-        <link
-            rel="shortcut icon"
-            href="https://www.selecto.co.kr/assets/images/icon/newlogo_f2.ico"
-            type="image/x-icon"
-        />
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="font/font.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+            <!--jQuery 라이브러리 파일 연결 -->
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="js/gnbMo.js"></script>
+        <!--bxslider 플러그인 파일 연결 -->
+        <script src="js/jquery.bxslider.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.slide').bxSlider({
+				mode:'fade',
+				auto:true,
+				speed:1000,/*1초*/
+				pager:false,
+				controls:false
+			})
+		});
+	</script>
+	
+	<!--menu-->
+	<script>
+		$(document).ready(function(){
+			$('#gnb').mouseenter(function(){
+				$('.sub_box').stop(true).slideDown(300);
+			});
+			$('#gnb').mouseleave(function(){
+				$('.sub_box').stop(true).slideUp(300);
+			});
+		});
+	</script>
+
+
+		<script>
+		$(document).ready(function(){
+			var btn_sn = 0;//현재상태 
+			$('.btn').click(function(){
+				switch(btn_sn) {
+					case 0 :
+						btn_sn=1;
+						$('.btn img').attr("src", "icons/down_usb.png");
+						$('.sitemap_box').stop().slideDown(100);
+					break;
+					case 1 :
+						btn_sn=0;
+						$('.btn img').attr("src", "icons/up_usb.png");
+						$('.sitemap_box').stop().slideUp(100);
+					break;		
+				}	
+			});
+		});
+	</script>
+
+      
     </head>
     <body>
         <div id="wrap">
@@ -75,34 +130,260 @@
                     </nav>
                     <!-- hd_btn -->
                     <h1 class="hd_btn">
-                        <a href="#"><img src="images/logo.png" alt="창업안내" /></a>
+                        <a href="#"><img src="images/coffee.png" alt="창업안내" /></a>
                     </h1>
                 </div><!-- hd_wrap -->
             </header>
+
             <div id="visual">
                 <ul class="slide">
-                    <li><a href=""><img src="images/slide1.jpg" alt=""></a></li>
-                    <li><a href=""><img src="images/slide2.jpg" alt=""></a></li>
-                    <li><a href=""><img src="images/slide3.jpg" alt=""></a></li>
-                    <li><a href=""><img src="images/slide4.jpg" alt=""></a></li>
+                    <li><a href="">
+                        <img src="images/slide1.jpg" alt="">
+                        <div class="cont wh pCenter">
+                            <p class="ttB1">조금 더 건강하게 먹으면 좋겠다는 생각!</p>
+                            <p class="ttB2">건강한 아이디가 모여 탄생한 <br class="mobileView">프리미엄 커피&amp;디저트 전문 브랜드입니다.</p> 
+                          </div>
+                    </a></li>
+                    <li><a href="">
+                        <img src="images/slide2.jpg" alt="">
+                        <div class="cont wh pCenter">
+                            <p class="ttB1">ALL DAY SELLECTO COFFEE!</p>
+                            <p class="ttB2">건강한잔 셀렉토커피와 함께하세요!</p> 
+                            </div>
+                    </a></li>
+                    <li><a href="">
+                        <img src="images/slide3.jpg" alt="">
+                        <div class="cont wh pCenter">
+                            <p class="ttB1">SELLECTO COFFEE 창업연구소</p>
+                            <p class="ttB2">셀렉토커피와 함께하실 <br class="mobileView">강한 창업 점주님을 찾습니다!</p>
+                    </a></li>
+                    <li><a href="">
+                        <img src="images/slide4.jpg" alt="">
+                        <div class="cont wh pCenter">
+                            <p class="ttB1">We Are Very Happy to Share!</p>
+                            <p class="ttB2">마시면 마실수록 기부가되는 셀렉토커피입니다.</p></a></li>
                 </ul>
             </div><!--div#visual end-->
+
             <div id="content">
-                <div class="cont1">
+                <div id="ct_wrap">
+                    <div class="cont1">
+                        <div class="row1_wrap">
+                            <div class="inner">
+                                <div class="row1_1">
+                                    <a href="">
+                                        <img src="images/c-signature-item-00.png" alt="">
+                                        <div class="over">		
+                                            <p class="name">SIGNATURE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="row1_2">
+                                    <a href="">
+                                        <img src="images/c-signature-bg-1.jpg" alt="">
+                                        <div class="over">		
+                                            <p class="name">SIGNATURE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!--div.inner end-->
+    
+                        <div class="row1_2_wrap">
+                            <div class="inner">
+                                <div class="row1_2_1">
+                                    <a href="">
+                                        <img src="images/c-beverage-item-00.png" alt="">
+                                        <div class="over">		
+                                            <p class="name">BEVERAGE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="row1_2_2">
+                                    <a href="">
+                                        <img src="images/c-beverage-bg-1.jpg" alt="">
+                                        <div class="over">		
+                                            <p class="name">BEVERAGE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!--row1_2_wrap end-->
+    
+                        <div class="row1_3_wrap">
+                            <div class="inner">	
+                                <div class="row1_3_1">
+                                    <a href="">
+                                        <img src="images/c-coffee-item-00.png" alt="">
+                                        <div class="over">		
+                                            <p class="name">COFFEE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="inner">	
+                                <div class="row1_3_2">
+                                    <a href="">
+                                        <img src="images/c-coffee-bg.png" alt="">
+                                        <div class="over">		
+                                            <p class="name">COFFEE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>	
+                        </div><!--row1_3_wrap end-->
 
-                </div>
-                <div class="cont2">
+                        <div class="row1_4_wrap">
+                            <div class="inner">	
+                                <div class="row1_4_1">
+                                    <a href="">
+                                        <img src="images/c-cookie-item-00.png" alt="">
+                                        <div class="over">		
+                                            <p class="name">COOKIE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="inner">	
+                                <div class="row1_4_2">
+                                    <a href="">
+                                        <img src="images/c-cookie-bg.png" alt="">
+                                        <div class="over">		
+                                            <p class="name">COOKIE</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>	
+                        </div><!--row1_4_wrap end-->
 
-                </div>
-                <div class="cont3">
-
-                </div>
-                <div class="cont4">
+                        </div><!--row1_wrap end-->
                     
-                </div>
+                    </div><!--div.cont1 end-->
+    
+                    <!-- 옆으로 이동하는 이동바 -->
+                    <div class="cont2"> 
+                        <ul>
+                            <li><img src="images/c-signature-item-01.png" alt=""></li>
+                            <li><img src="images/c-signature-item-02.png" alt=""></li>
+                            <li><img src="images/c-signature-item-03.png" alt=""></li>
+                            <li><img src="images/c-topping-01.png" alt=""></li>
+                            <li><img src="images/c-topping-02.png" alt=""></li>
+                            <li><img src="images/c-topping-03.png" alt=""></li>
+                            <li><img src="images/c-topping-04.png" alt=""></li>
+                            <li><img src="images/c-cookie-item-01.png" alt=""></li>
+                            <li><img src="images/c-cookie-item-02.png" alt=""></li>
+                            <li><img src="images/c-cookie-item-03.png" alt=""></li>
+                        </ul>
+                    </div><!--div.cont2 end-->
+
+                    <div class="cont3">
+                        <img src="images/c-bottom-img.png" alt="">
+                        <p class="txt3">커피한잔 우유1팩 기부</p>
+                    </div><!--div.cont3 end-->
+
+                    <div class="cont4">
+                        <p class="txt3">NEWS & EVENTS</p>
+                        <div class="row4_1">
+                            <a href="">
+                                <img src="images/new&events_1.png" alt="">
+                                <div class="over">
+                                    <p class="name">[NEW VIDEO] 내가 셀렉하는 오늘의 무드는?<br>@itselsathepuppy</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row4_2">
+                            <a href="">
+                                <img src="images/new&events_2.png" alt="">
+                                <div class="over">
+                                    <p class="name">[NEW VIDEO] Why is SELECTO special?<br>@itselsathepuppy</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row4_3">
+                            <a href="">
+                                <img src="images/new&events_3.jpg" alt="">
+                                <div class="over">
+                                    <p class="name">[NEW MENU] Born in spring wish<br>@itselsathepuppy</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--div.cont4 end-->
+
+                    <div class="cont5">
+                        <p class="txt3">selecto_coffee</p>
+                        <div class="row5_wrap">
+                            <div class="inner">
+                                <div class="row5_1">
+                                    <a href="">
+                                        <img src="images/insta_row_1.jpg" alt="">
+                                        <div class="over">
+                                            <p class="name">JANUARY<br>@itselsathepuppy</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="row5_1_2">
+                                    <a href="">
+                                        <img src="images/insta_row_2.jpg" alt="">
+                                        <div class="over">		
+                                            <p class="name">JULY<br>@al.ungureanu96</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>	
+                                <div class="row5_2">
+                                    <div class="inner">
+                                        <div class="row5_2_1">
+                                            <a href="">
+                                                <img src="images/insta_row_3.jpg" alt="">
+                                                <div class="over">		
+                                                    <p class="name">FEBRUARY<br>@andhikabayu</p>
+                                                </div>
+                                            </a>
+                                    </div>
+                                    </div><!--div.row5_2 end-->
+                                    <div class="row5_3">
+                                        <div class="inner">
+                                            <div class="row5_3_1">
+                                                <a href="">
+                                                    <img src="images/insta_row_4.jpg" alt="">
+                                                    <div class="over">		
+                                                        <p class="name">MARCH<br>@pavelog</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="row5_3_2">	
+                                                <a href="">
+                                                    <img src="images/insta_row_5.jpg" alt="">
+                                                    <div class="over">		
+                                                        <p class="name">JUNE<br>@alinamagera</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div><!--row5_3 end-->
+                                    <div class="row5_4_wrap">
+                                        <div class="inner">
+                                            <div class="row5_4">
+                                                <a href="">
+                                                    <img src="images/insta_row_6.jpg" alt="">
+                                                    <div class="over">		
+                                                        <p class="name">APRIL<br>@fakeleather</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div><!--div.row5_4_wrap end-->
+                        </div><!--div.row5_wrap end-->
+                    </div><!--div.row5 end-->
+                </div><!--div#ct_wrap end-->
             </div><!--div#content end-->
-            슬라이드 메인 호버메뉴 서브페이지 흐르는 메뉴바 커피한잔 기부 서브페이지 NEWS & EVENTS 동영상1 배너 동영상2
-            배너 메뉴이동 배너 SNS 호버페이지
 
             <footer id="footer">
                 <div class="sitemap_box">

@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	/* color:#FF4713; */
+	color:#3e3e3e;
+}
+img{
+	border:0;
+}
+body{
+	font-family:'NanumBarunGothic',sans-serif;
+	/* color:#FF4713; */
+	color:#3e3e3e;
+}
