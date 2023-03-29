@@ -47,7 +47,7 @@
 .cont1_wrap{
 	width:1900px;
 }
-.cont2 .ct_wrap{
+ .cont2 .ct_wrap{
 	padding-top:180px;
 }
 
@@ -152,6 +152,248 @@
 	margin-bottom:180px;
 }
 /*---------------------visual end---------------------------*/
+
+
+.ct_wrap{
+
+	box-sizing:border-box;
+}
+.cont1_img1{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.cont1_img1 a{
+    display:block; 
+	float:left;
+	height:504px;
+}
+.cont1_img1 span{
+	font-size:25px;
+	font-family:"a13";
+}
+.cont1_img1 .cont1_text1{
+	margin-top:20px;
+	line-height:35px; 
+}
+.cont1_img1_txt1{
+	position:absolute;
+	top:50px;
+	left:120px;
+	color:#fff;
+	font-size:20px;
+	font-family:"a12";
+	text-align:center;  
+}
+.cont1_img1_txt2{
+	position:absolute;
+	top:50px;
+	left:805px;
+	color:#fff;
+	font-size:20px;
+	font-family:"a12";
+	text-align:center;
+}
+.cont1_img1_txt3{
+	position:absolute;
+	top:50px;
+	color:#fff;
+	left:1350px;
+	font-size:20px;
+	font-family:"a12";
+	text-align:center;
+}
+.cont1_img1 div{
+	box-sizing:border-box;
+}
+.cont1_box1{
+	width:710px;
+	height:504px;
+	background-color:rgba(0,0,0,0.5);
+	font-size:17px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	color:#fff;
+	text-align:center;
+	line-height:380px;
+	display:none;   
+}
+.cont1_box2{
+	width:515px;
+	height:504px;
+	background-color:rgba(0,0,0,0.5);
+	font-size:17px; 
+	position:absolute;
+	left:710px;
+	bottom:0px;
+	color:#fff;
+	text-align:center;
+	line-height:380px;
+	display:none;   
+}
+.cont1_box3{
+	width:675px;
+	height:504px;
+	background-color:rgba(0,0,0,0.5);
+	font-size:17px;
+	position:absolute;
+	left:1225px;
+	bottom:0px;
+	color:#fff;
+	text-align:center;
+	line-height:380px;
+	display:none;   
+}
+.cont1_box1 .txt{
+	line-height:30px;
+	font-family:"a10";
+	margin-top:180px; 
+}
+.cont1_box2 .txt{
+	line-height:30px;
+	font-family:"a10";
+	margin-top:180px; 
+}
+.cont1_box3 .txt{
+	line-height:20px;
+	font-family:"a10";
+	margin-top:180px; 
+}
+.cont1_img1 .color1:hover .cont1_box1{
+	display:block;
+}
+.cont1_img1 .color2:hover .cont1_box2{
+	display:block;
+}
+.cont1_img1 .color3:hover .cont1_box3{
+	display:block;
+}
+/*--------------------cont1---------------------------*/
+
+.cont1_title1{
+	text-align:center;
+	margin-bottom:30px;
+	font-size:40px; 
+}
+.cont1_title2{
+	text-align:center;
+	margin-bottom:120px;
+	line-height:40px;
+	font-size:16px;
+}
+
+.cont2{
+	clear:both;
+	height:720px;
+}
+.cont2_icon1{
+	width:1280px;
+	height:100px;
+	margin:0 auto;
+	text-align:center;
+}
+.cont2_icon1 a{
+	display:block;
+	float:left;
+	width:20%;
+	height:100%;
+	line-height:55px;
+	font-family:'a14';
+	font-size:22px;   
+}
+.cont1_box4{
+	display:block; 
+	width:80px;
+	height:5px;
+	background-color:#268ab1;
+	margin:0 auto;
+	text-align: center;
+	display:none;
+}
+.cont2_icon1 a:hover .cont1_box4{
+	display:block;
+}
+
+/*-------------------------cont2----------------------------*/
+.cont3 .ct_wrap{
+	clear:both;
+	background-image:url("../images/cont3_bg.jpg");
+	margin-top:50px;
+	width:1900px;
+	height:750px;
+	position: relative; 
+}
+.right_box{
+	position:absolute; 
+	bottom:150px;
+	left:1250px;
+}
+.left_box{
+	position:absolute; 
+	width:628px;
+	height:327px;
+	background-color:rgba(0,0,0,0.6);
+	top:200px;
+	left:150px; 
+}
+.left_box li{
+	display:block;
+	margin:45px; 
+	margin-top: 90px;
+	margin-bottom:-50px; 
+	margin-left:100px; 
+	color:#fff;
+	font-size:18px;
+	font-family:'a10';	 
+}
+.left_box .left_box_txt:hover{
+	color:#cff1fe; 
+}
+.cont3_bar{
+	position:absolute;
+	top:327px; 
+}
+.left_box_txt{
+	position:absolute; 
+	color:#fff;
+	bottom:-30px;
+	left:520px;
+
+}
+
+.cont3 .cont1_title1{
+	position:absolute;
+	top:50px;
+	left:880px;
+	color:#fff;
+	display:block; 
+}
+.cont3 .cont1_title2{
+	position:absolute;
+	top:120px;
+	left:840px;
+	color:#fff;
+	display:block; 
+}
+.ct_wrap .left_box{
+	float:left;
+}
+.ct_wrap .right_box{
+	float:right;
+}
+.play_txt{
+	position: absolute;
+	display: block;
+	bottom:100px;
+	left:1250px;
+	color:#fff;
+	font-family:'a10';
+	font-size: 15px; 
+}
+
+
+
 
 #footer{
 	width:100%;
@@ -268,4 +510,3 @@
 .fnb_list a:hover{
 	color:#fff;
 }
-
