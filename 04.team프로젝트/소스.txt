@@ -1,0 +1,74 @@
+     <div class="ceo_bg sub_bg">
+            <p class="way_bg_title  sub_bg_title">
+                우리는 화장품을 통하여<br class="pc_hidden"> 
+                새로운 변화를 즐기는 사람에게 자신감과<br> 
+                즐거움을 제공하기 위하여 존재합니다.<br class="pc_hidden"> 
+                우리는 끊임없는 혁신과 강력한<br>브랜드 경쟁력을 기반으로<br class="pc_hidden"> 
+                화장품 시장을 선도하고 있습니다.</p>
+            </p>
+        </div>
+        <div class="way_top">
+            <h3 class="way_title">CLIO WAY<br>
+                <span class="way_cont01_txt">CLIO Core Focusing Attitude</span>
+            </h3>
+            <div class="way_cont01">
+                <p class="way_cont01_img"><img src="../img/sub/way_img01.png" alt=""></p>
+                <div class="way_cont01_txt01 box">
+                    <p class="way_cont01_tit">Every Pouch One CLIO</p>
+                    <p class="way_cont01_txt">CLIO VISION</p>
+                </div>
+                <div class="way_cont01_txt02 box">
+                    <p class="way_cont01_tit"><span>화장품을 통해</span>자신감과 즐거움을 제공한다</p>
+                    <p class="way_cont01_txt">CLIO MISSION</p>
+                </div>
+                <div class="way_cont01_txt03 box">
+                    <p class="way_cont01_tit"><span>3대 핵심가치</span>변하자! 통하자! 즐기자!</p>
+                    <p class="way_cont01_txt">CLIO VALUE</p>
+                </div>
+            </div>
+        </div>
+        <div class="way_cont sub_cont">
+            <div class="way_box box01">
+                <div class="way_width">
+                    <div class="way_txtbox">
+                        <p class="way_tit"><span>변하자</span>를 위하여</p>
+                        <p class="way_txt">
+                            항상 새로운 가치를 추구한다. <br>
+                            최상의 성과를 내기 위해 효율적으로 일한다.<br>
+                            보완이 필요없는 야무진 일처리를 한다.
+                        </p>
+                        <p class="way_big_title">CHALLENGE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="way_box box02">
+                <div class="way_width">
+                    <div class="way_txtbox">
+                        <p class="way_tit"><span>통하자</span>를 위하여</p>
+                        <p class="way_txt">
+                            상대방 말을 주의 깊게 듣고 핵심을 파악한다. <br>
+                            타 부서 업무도‘우리 일’이라는 생각으로 협의·협력 한다. <br>
+                            올바른 예의를 다하고 상대를 배려한다.
+                        </p>
+                        <p class="way_big_title">CONNECTION</p>
+                    </div>
+                </div>
+            </div>
+            <div class="way_box box03">
+                <div class="way_width">
+                    <div class="way_txtbox">
+                        <p class="way_tit"><span>즐기자</span>를 위하여</p>
+                        <p class="way_txt">
+                            작은 성과도 칭찬·격려한다. <br>
+                            긍정적인 말투로 대화한다.<br>
+                            끈끈한 동료애를 바탕으로 함께한다.
+                        </p>
+                        <p class="way_big_title">ENJOYMENT</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="way_lasttxt">
+                이로써 우리는 <br class="pc_hidden"><span>Every Pouch One CLIO</span>의<br class="pc_hidden"> 비전을 달성한다.
+            </p>
+        </div>
