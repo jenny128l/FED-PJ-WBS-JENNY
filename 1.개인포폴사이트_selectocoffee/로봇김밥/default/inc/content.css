@@ -1,0 +1,25 @@
+input, textarea{outline:none;}
+.form input[type="text"], .form input[type="password"], textarea, 
+.table_02 input[type="text"], .table_02 input[type="password"]{border:1px solid #fcfcfc; transition:all 0.5s ease; background:#fbfbfb; padding-left:5px;}
+.form input[type="text"]:focus, .form input[type="password"]:focus, textarea:focus,
+.table_02 input[type="text"]:focus, .table_02 input[type="password"]:focus{border:1px solid #666 !important;transition:all 0.5s ease; background:#fff;}
+input[name="com_board_search_value"], input.member_border{border:1px solid #e5e5e5;transition:border 0.5s ease;}
+input[name="com_board_search_value"]:focus, input.member_border:focus{border:1px solid #666;transition:border 0.5s ease;}
+
+.board2 table table tr:first-child td:first-child, .output table tr:first-child td:first-child{overflow:hidden;}
+.board2 table table img, .output .board_output_gallery_img a img{width:100%; height:auto; overflow:hidden; transition:all 0.2s ease-in-out;}
+.board2 table table:hover img, .output table:hover .board_output_gallery_img a img {transform:scale(1.035);}
+.st_title .board tr:hover{background:#f9fafa; transition:background 0.3s ease;}
+.st_title .board tr:first-child:hover{background:none;}
+.basic_t input, .basic_t select{height:26px;}
+#gotop {position: fixed;bottom: 50px; right:50px; cursor: pointer; display: none; z-index:2;}
+#gotop .btn {border-radius:50%;background-color: rgba(51,51,51,0.4);width:46px; height:46px; transition:all ease 0.3s;}
+#gotop .btn:hover{ background-color: rgba(51,51,51,0.9); }
+
+
+@media only screen and (max-width:767px) {
+#gotop{bottom:20px; right:20px;}
+#gotop .btn{width:36px; height:36px;}
+#gotop .btn:hover{ background-color: rgba(51,51,51,0.4); }
+#gotop .btn img{width:100%;}
+}

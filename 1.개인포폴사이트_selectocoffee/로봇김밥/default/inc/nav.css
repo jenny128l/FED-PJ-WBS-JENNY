@@ -1,0 +1,57 @@
+.insideWrap {position:relative;height:170px;max-width:1440px;margin:0 auto;}
+
+#header {position:fixed;height:110px;width:100%;z-index:999; background:#fff;}
+
+.logo {width:160px;}
+.logo img {display:inline-block;width:100%;padding-top:35px;}
+.gnb > div.mz_menu, .gnb > div.top .m_logo{display:none; height:0; overflow:hidden;}
+.gnb > div.top > a{ position:absolute;}
+.gnb > div.top > a.menu{ top:0; left:0; display:none;}
+
+
+
+#header #nav {position:absolute;z-index:110;left:30%;width:70%; top:45px; text-align:center; font-weight:300;}
+#header #nav ul li {float:left; width:20%;}
+#header #nav ul li a {display:inline-block; font-size:20px; color:#000;}
+#header .GnbMenu {position:absolute;left:0;top:98px;width:100%;height:0px;overflow:hidden;background: url("../img/design/bg_top.png") repeat-x left bottom;}
+#header .GnbMenu .insideWrap {overflow:hidden; padding:10px 0; box-sizing:border-box;}
+#header .GnbMenu .GnbWrap .menu {position:relative; font-size:15px; font-weight:300;}
+#header .GnbMenu .GnbWrap .menu .depth2 {position:absolute;padding-top:0px;left:30%;top:0;width:70%;overflow:hidden; text-align:center;} 
+#header .GnbMenu .GnbWrap .menu .depth2 ul {float:left;width:20%;}
+#header .GnbMenu .GnbWrap .menu .depth2 ul li {height:28px;overflow:hidden;}
+#header #nav ul li a, #header .GnbMenu .GnbWrap .menu .depth2 ul li a{color:#333; transition:color 0.15s ease-in;}
+#header #nav ul li a:hover, #header .GnbMenu .GnbWrap .menu .depth2 ul li a:hover{color:#ee9925;}
+
+
+.global_nav {top:0; color:#fff;}
+.global_nav li a {color:#000!important;}
+
+@media (max-width:1220px){
+#header, #header #nav, #header .global_nav, #header .logo, #container{display:none;}
+#main, #wrap_main{background:none;}
+#m_slider{display:block;}
+.header{position:relative;top:0; height:66px; width:100%; z-index:10;}
+.insideWrap{width:100%;}
+.gnb > div.top .m_logo{position:relative; display:block; height:auto; text-align:center; padding:12px 0 0 0;}
+.gnb > div.top .m_logo img{height:36px;}
+.gnb > div.top > a.menu{ display:block;}
+.gnb > div.top{height:66px; background: url("../img/design/bg_top.png") repeat-x center bottom; }
+.gnb > div.mz_menu{ position:fixed; top:0; left:0; width:270px; height:100%; overflow-y:auto; display:none; z-index:9000;text-align:left; }
+.gnb > div.mz_menu > a{float:right !important;}
+.gnb > div.mz_menu > ul{ width:270px; float:right; background:#fff; height:100%; overflow-y:auto;}
+.gnb > div.mz_menu > ul > li > ul > li {padding:8px 0;}
+.gnb > div.mz_menu > ul > li > span > a{height:65px; line-height:65px; padding-left:30px;color:#333; width:240px; display:block; border-bottom:1px solid #eee; font-size:16px;font-weight:700;}
+.gnb > div.mz_menu > ul > li > span > a:hover{ color:#000; text-decoration:none;}
+.gnb > div.mz_menu > ul > li > ul{ background:#f7f7f7; border-bottom:1px solid #eee;padding:10px 0; display:none;}
+.gnb > div.mz_menu > ul > li > ul > li > a{padding-left:30px; color:#333; font-size:14px;font-weight:300;}
+.gnb > div.mz_menu > ul > li > ul > li > a:hover{color:#333; text-decoration:none;}
+.gnb > div.mz_menu > a{float:left;}
+.gnb .member {background:#f7f7f7; padding:10px 0 10px 30px; overflow:hidden; border-bottom:1px solid #eee; font-family: 'malgun gothic', '¸¼Àº °íµñ', 'µ¸¿ò', dotum, Tahoma, arial;}
+.gnb .member a{color:#333; font-size:13px;border:1px solid #e1e1e1; display:block; float:left; padding:5px; margin-right:5px;}
+.gnb .member a:hover{text-decoration:none;}
+.gnb .member p{font-size:12px; color:#aaa; font-weight:200; clear:both; margin-bottom:10px;}
+.gnb .sns{margin:20px 0 20px 20px;}
+.gnb .sns a{padding:0 10px;}
+.bg_mask {position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.6;display:none;z-index:999;}
+div::-webkit-scrollbar {width: 0px; height: 0px; }
+}

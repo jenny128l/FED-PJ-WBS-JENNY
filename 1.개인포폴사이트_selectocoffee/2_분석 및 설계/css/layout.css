@@ -16,7 +16,7 @@
 }
 .hd_wrap, .ft_wrap{
 	/* width:1900px; */
-	width: 1900px;
+	width: 1500px;
 	margin:0 auto;
 }
 .hd_wrap{
@@ -45,6 +45,10 @@
 	height:40px;
 	line-height:40px;
 }
+.hd_btn{
+	float:right;
+	bottom:-5px;
+}
 /*--------------------------header---------------------------*/
 
 
@@ -58,15 +62,20 @@
 	background-color: #fff; 
 	position:absolute;/**/
 	top:60px;
-	left:40px;
+	left:220px;
 	display:none;
 	z-index:50;
 }
 .sub_box div{
 	float:left;
 	padding-top:23px;
-	padding-left:30px; 
 }
+.sub_box li{
+	margin-left:75px;
+	margin-right:48px; 
+}
+
+
 .sub_box .sub_title{
 	font-family:'a14';
 }
@@ -103,7 +112,7 @@
 #visual .cont_txt{
 	width:600px;
 	height:400px;
-	background-color:rgba(255,255,255,0.5);
+	/* background-color:rgba(255,255,255,0.5); */
 	position:absolute;
 	left:650px;
 	top:150px;
@@ -152,126 +161,13 @@
 #content{
 	position: relative;
 	padding-top: 200px;
+	width: 100vw;
 }
 #content .row{
 	width:100%;
 	clear:both;
 }
 
-#content{
-	position: relative;
-	padding-top: 200px;
-}
-#content .row1{
-	width:100%;
-	clear:both;
-}
-.row1{
-	position:relative;
-	width:1502px;
-	height:822px;
-}
-.row1_wrap{
-	position:relative;
-	width:1502px;
-	height:822px;
-
-}
-.row1_1{
-	position:absolute;
-	float:left;
-}
-.row1_1 img{
-	position:relative;
-	display:block;
-}
-.inner a{
-	width: 100%;
-	overflow:hidden;
-}
-.inner a{
-	display:block;
-	position:relative;
-	text-align:center;
-}
-.inner .over{
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background-color:rgba(0,0,0,0.5);
-	display:none;
-}
-.row1_1 .name{
-	width:100px;
-	margin:0 auto;
-	margin-top:380px;
-	color:#fff;
-	border:1px solid #fff;
-	font-size:16px;
-	padding:8px;
-	display:block;
-	transition:all 1s;
-}
-
-.row1_1 a:hover .over{
-	display:block;
-}
-.row1_1 .name:hover{
-	background-color:#000;
-}
-/**/
-.row1_2_wrap{
-	position:absolute;
-	float:left;
-	left:667px;
-}
-.row1_2_wrap img{
-	width:332px;
-}
-/**/
-
-.row1_2_1 img{
-	position:relative;
-	display:block;
-}
-.row1_2_1 .inner a{
-	width: 100%;
-	overflow:hidden;
-}
-.row1_2_1 .inner a{
-	display:block;
-	position:relative;
-}
-.row1_2_1 .inner .over{
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background-color:rgba(0,0,0,0.5);
-	display:none;
-}
-.row1_2_1 .name{
-	width:100px;
-	margin:0 auto;
-	margin-top:130px;
-	color:#fff;
-	border:1px solid #fff;
-	text-align:center;
-	font-size:16px;
-	padding:8px;
-	display:block;
-	transition:all 1s;
-}
-
-.row1_2_1 a:hover .over{
-	display:block;
-}
-.row1_2_1 .name:hover{
-	background-color:#000;
-}
 
 
 
@@ -279,8 +175,7 @@
 
 
 
-
-
+/* ------------------------------------------------ footer ------------------------------------------ */
 #footer{
 	width:100%;
 	position: relative;
