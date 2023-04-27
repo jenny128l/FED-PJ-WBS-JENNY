@@ -1,0 +1,78 @@
+<? include('../include/header.php'); ?>
+
+<style>
+.about_mob,.history_mob {display:none;}
+.history_web > div {margin-bottom:80px;}
+
+.his_right2 {opacity:0; transition:0.5s;}
+.his_left2 {opacity:0; transition:0.5s;}
+
+.his_right2:hover {opacity:1;}
+.his_left2:hover {opacity:1;}
+.his_right2:hover .his_right {opacity:0;}
+
+
+
+
+
+@media screen and (max-width:1200px) { 
+ .aboutbox {margin:0 20px;}
+.aboutbox img {margin-bottom:25px; margin-right:0; float:none; }
+.about_web {display:none;}
+.about_mob {display:block;}
+ .aboutbox div p:first-child {padding:0 0 25px 0;}
+  .textcenter {font-weight:500;}
+}
+
+
+@media screen and (max-width:768px) { 
+.about_web {display:block;}
+.about_mob {display:none;}
+ .history_web {display:none;}
+
+ .aboutbox img {margin-bottom:25px; margin-right:0; float:none; width:100%;}
+ .textcenter {text-align:center; font-weight:500;}
+ .aboutbox {margin:0 20px;}
+ .aboutbox div p:last-child {text-align:center;}
+ .aboutbox div p:first-child {padding:0 0 30px 0;}
+
+.history_mob {display:block; width:402px; margin:0 auto;}
+.mr10 {margin-bottom:60px; position:relative;}
+.mr10 img {position:absolute; left:-70px; top:12px;}
+.mr10 p {font-size:30px; font-weight:500; color:#e04e1b; black; margin:0;}
+.mr10 ul li {padding-top:10px; font-size:16px; color:#616161;}
+.mob_line {position:absolute;display:inline-block; top:15px; left:-58px; width:1px; height:1180px; background-color:#cccccc; z-index:-1; }
+
+}
+
+@media screen and (max-width:655px) { 
+ .history_mob {margin-left:15%;}
+ .tab_examine li {width:33.33%;}
+}
+
+
+@media screen and (max-width:510px) { 
+.mr10 p {font-size:27px;}
+.mr10 ul li {font-size:14px;}
+.mr10 img {left:-45px; top:9px;}
+.mob_line {left:-33px;}
+.mr10 ul li {max-width:70%;} 
+}
+
+</style>
+
+
+  		<ul class="tab_examine tab_lists tab3">
+			<li><a href="./company.html">ABOUT US</a></li><li><a href="./history.html">HISTORY</a></li><li class="on"><a href="./partner.html">PARTNER</a></li>
+		</ul>
+		
+
+ <div class="partbox">
+   <div><span><img src="../images/sub/pp1.jpg"></span></div><div><span><img src="../images/sub/pp2.jpg"></span></div><div><span><img src="../images/sub/pp3.jpg"></span></div><div class="pdr0"><span><img src="../images/sub/pp4.jpg"></span></div><div><span><img src="../images/sub/pp5.jpg"></span></div><div><span><img src="../images/sub/pp6.jpg"></span></div><div><span><img src="../images/sub/pp7.jpg"></span></div><div><span><img src="../images/sub/pp8.jpg"></span></div><div><span><img src="../images/sub/pp9.jpg"></span></div>
+ 
+ </div>
+
+
+
+  
+<? include('../include/footer.php'); ?>

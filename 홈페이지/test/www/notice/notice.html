@@ -1,0 +1,108 @@
+<? include('../include/header.php'); ?>
+<style>
+
+
+
+.act_tb {width:100%; font-size:16px;}
+.act_tb td,.act_tb th {text-align:center; border-bottom:solid 1px #c7c7c7; padding:13px 0;}
+.act_tb td {color:#616161;}
+.act_tb th {background-color:#f4f4f4; border-top:solid 2px #191919; }
+.td_left {text-align:left !important; padding-left:10px !important;}
+
+.act_tb td,.act_tb td a{color:#6f6f6f !important;}
+.act_tb td:nth-child(2) {padding-left:20px !important; }
+
+
+/*서치페이징*/
+.tbl_search {position:relative;margin:30px 0;text-align:center; clear:both;}
+.page_box a {display:inline-block; width:35px; height:35px; line-height:35px; text-align:center; border:solid 1px #bfbfbf; vertical-align:top;}
+.page_box a:hover,.page_box a.on {color:#fff; background-color:#191919;}
+.pa_arrL {background:url('../images/sub/l1.png') center no-repeat !important; margin-right:10px;}
+.pa_arrR {background:url('../images/sub/r1.png') center no-repeat !important; margin-left:10px;}
+.pa_arrL2 {background:url('../images/sub/l2.png') center no-repeat !important;}
+.pa_arrR2 {background:url('../images/sub/r2.png') center no-repeat !important;}
+
+.act_write {position:absolute; right:0; top:0;}
+.act_write a {display:inline-block; width:110px; height:35px; text-align:center; line-height:34px; color:#fff; font-size:16px; font-weight:500; background-color:#2c2f31; border-radius:10px;}
+.list_search {text-align:center; width:100%; padding:15px 0; border:solid 1px #e6e6e6; background-color:#f5f5f5;}
+.list_search select {height:35px;border:solid 1px #bababa;}
+.list_search input {width:200px;height:35px; border:solid 1px #bababa;}
+.list_search a {display:inline-block;vertical-align:bottom; width:85px; height:35px; line-height:35px; text-align:center; color:#fff; font-weight:500; background:#191919; }
+/*---*/
+
+.map_bott {width:100%; padding:20px 1.6%; text-align:center; border:solid 1px #cccccc; border-top:none;margin-top:-4px;}
+.map_bott p {color:#616161; font-size:16px;}
+.map_bott ul {margin-bottom:0;}
+.map_bott ul li {display:inline-block; position:relative; padding:10px 60px; color:#272626; font-size:16px;}
+.map_bott ul li:nth-child(1) {background:url('../images/sub/telback.png') 25px center no-repeat;}
+.map_bott ul li:nth-child(2) {background:url('../images/sub/faxback.png') 25px center no-repeat;}
+.map_bott ul li:nth-child(3) {background:url('../images/sub/emailback.png') 25px center no-repeat;}
+
+.map_bott ul li:nth-child(1) img {position:absolute; right:20px;}
+.map_bott ul li:nth-child(2) img {position:absolute; right:20px;}
+.map_bott ul li:nth-child(3) img {position:absolute; right:23px; margin-top:4px;}
+
+@media screen and (max-width:768px) { 
+.act_tb th:nth-child(1),.act_tb td:nth-child(1) {display:none;} 
+.act_tb th:nth-child(4),.act_tb td:nth-child(4) {display:none;} 
+.act_tb th:nth-child(2) {width:80%; }
+.act_tb th:nth-child(3) {width:20%;}
+.examine_cont1 {margin:0 20px;}
+}
+
+
+@media screen and (max-width:655px) { 
+
+ .tab_examine li {width:50%;}
+ .inner{padding:0 6%;}
+ 
+}
+
+
+@media screen and (max-width:468px) { 
+.list_search select {height:30px;}
+.list_search input {width:150px; height:30px;}
+.list_search a {width:60px; height:30px; line-height:30px;}
+.page_box a {width:30px; height:30px; line-height:30px;}
+
+
+
+
+}
+
+</style>
+
+				<div class="sub_cont">
+
+					<div class="sub_box">
+  		<ul class="tab_examine tab_lists tab2">
+			<li class="on"><a href="notice.html">NOTICE</a></li><li><a href="location.html">LOCATION</a></li>
+		</ul>
+		<div class="inner">
+		   <table class="act_tb">
+		   
+		   <colgroup>
+		     <col width="7%">
+			 <col width="*">
+			 <col width="10%">
+			 <col width="8%">
+		   </colgroup>
+			  <tbody><tr>
+				<th>NO</th>
+				<th>TITLE</th>
+
+				<th>DATE</th>
+				<th>HIT</th>
+			  </tr>
+			  <?=$BoardList;?>
+				
+		  </tbody></table>
+           <div class="tbl_search">
+				<div class="page_box">
+					<?=$Paging?>
+				</div>
+			</div>
+			<?=$BoardSearch?>
+		
+
+<? include('../include/footer.php'); ?>

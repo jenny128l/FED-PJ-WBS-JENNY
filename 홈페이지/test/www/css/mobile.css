@@ -1,0 +1,37 @@
+layout.css.all_menu2 {position:fixed; z-index:20005; display:none; top:99px; /*background:url("../images/main/bg_navi.png") repeat left center;*/ background:rgba(0,0,0,0.5);width:100%;  height:100%;}
+#scroller div {position:absolute; top:105px; right:0px;  width:100%; background: rgba(0,0,0,0.8); z-index:30010; }/*모바일 메뉴 너비*/
+.all_menu2 > div {overflow-y:auto;}
+.all_menu2 > a {color:#333; font-size:15px; font-weight:600;}
+.m-login {max-width:320; text-align:center; padding:8px 20px 0 18px;}
+.m-login li {width:100%;}
+.m-login input {display:block; width:100%; padding:8px 20px 8px 18px;  font-size:15px; border:2px solid #a3a3a3; color:#fff; font-weight:600; cursor:pointer; background: none;}
+.m-login li a{display:block; width:100%; padding:8px 0px 8px 0px;  font-size:15px; border:2px solid #a3a3a3; color:#fff; font-weight:600; cursor:pointer; background: none;}
+.all_menu2 .all_menu2_con a {display:block; text-decoration:none;}
+.all_menu2 .all_menu2_con > li > a {padding:15px; color:#b8b8b8; font-size:15px; font-weight:500; border-bottom:1px solid #494a4a; background:url('../images/main/nav_icon.png') 96% 50% no-repeat;}
+/*.all_menu2 .all_menu2_con > li > a.nav_off{display:inline-block; width:34px; height:34px; background:url('../images/main/m_open.png') 98.5% 50% no-repeat;}*/
+.all_menu2 .all_menu2_con > li > a.on {}
+
+/*.all_menu2 .menu_sub {display:none;} */
+/*하위 메뉴*/
+.m_util{width:96%; margin:12px auto;}
+.m_util li{margin-bottom:10px;}
+.m_util li a{display:block; padding-left:20px; height:33px; line-height:33px; border:1px solid #9e9e9e; border-radius:5px; font-size:14px; color:#666;}
+.m_util li:last-child a{border:1px solid #000 !important;}
+.menu_sub{padding:15px 0 7px 10px; background: rgba(0,0,0,0); }
+.all_menu2 .menu_sub li { }
+.all_menu2 .menu_sub > li > a {position:relative; padding:6px 0; padding-left:21px; font-size:14px; color:#b8b8b8;}
+.all_menu2 .menu_sub > li > a:before{position:absolute; left:9px; top:6px; display:inline-block; content:'-';}
+.all_menu2 .menu_sub > li.no-menu > a {background:none;}
+.all_menu2 .menu_sub > li.no-menu > a.on {background:none;}
+.all_menu2 .menu_sub li ul li {background:#383838;}
+.all_menu2 .menu_sub li ul li a{padding:7px 5px 8px 40px; font-size:11px; color:#cccbcb; border-bottom:1px solid #343434;}
+.all_menu2 {display:none;}
+.all_menu2 .btn_nav2.close{display:block; position:absolute; right:3%; top:11px;}
+#mask {position:fixed; background:rgba(0,0,0,0.5); display:none; right:0; top:0px; z-index:10000; width:100%; height:100%;}/*마스크 css*/
+
+.all_menu2_con{margin:0; border-top:1px solid #494a4a;}
+
+.mob_nav_eng {border:none !important; width:100%; background-color:#666666;}
+.mob_nav_eng a {font-weight:400; font-size:12px;color:#d7d7d7;background-color:#5a5a5a; height:25px; line-height:25px;padding:10px 10px 10px 10px; }
+
+  #scroller div {top:59px;}

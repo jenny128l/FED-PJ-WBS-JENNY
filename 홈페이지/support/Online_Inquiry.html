@@ -1,0 +1,56 @@
+<? include('../include/header.php'); ?>
+	<ul class="download_list">
+		<li>If you have some questions on our products or want to place an order, <br>please fill the product inquiry form below. We will get back to you right away.</li>
+	</ul>
+	<div class="privacyBox_wrap">
+		<h4>수집하는 개인정보의 항목</h4>
+		<p class="mrb7">정보통신망법 규정에 따라 피에스아이노딕 수집하는 개인정보의 항목, 개인정보의 수집 및 이용목적, 개인정보의 보유 및 이용기간을 안내 드리오니 자세히 읽은 후 동의하여 주시기 바랍니다.</p><br/><br/>
+		수집하는 개인정보
+	</div>
+	<div class="check_box tright"><input type="checkbox" id="check01" class="checkd"><label for="check01" class="check_text">개인정보 이용에 동의 합니다.</label></div>
+	<table class="tbl_inquiry" width="100%">
+		<colgroup>
+			<col width="22%"></col>
+			<col width="*"></col>
+		</colgroup>
+		<tbody>
+			<tr>
+				<th><label for="name">Name (이름)</label></th>
+				<td><input type="text" id="name" class="wh100"></td>
+			</tr>
+			<tr>
+				<th><label for="Company">Company (회사명)</label></th>
+				<td><input type="text" id="Company" class="wh100"></td>
+			</tr>
+			<tr>
+				<th><label for="Tel">Tel (이메일)</label></th>
+				<td><input type="text" id="Tel" class="wh100"></td>
+			</tr>
+			<tr>
+				<th><label for="email">E-mail (내용)</label></th>
+				<td><input type="text" id="email" class="wh100"></td>
+			</tr>
+			<tr>
+				<th><label for="memo">Your inquiry (내용)</label></th>
+				<td><textarea id="memo" class="wh100 inquiry_textarea"></textarea></td>
+			</tr>
+			<tr>
+				<th>Spam protection code<br>(자동등록방지)</th>
+				<td>
+					<script>var g5_captcha_url  = "http://ggook.winko.net/plugin/kcaptcha";</script>
+					<script src="http://ggook.winko.net/plugin/kcaptcha/kcaptcha.js"></script>
+					<fieldset id="captcha" class="captcha">
+					<legend><label for="captcha_key">자동등록방지</label></legend>
+					<img src="../images/sub/kcaptcha_image.jpg" alt="" id="captcha_img"><br><input type="text" name="captcha_key" id="captcha_key" required="" class="captcha_box required" size="6" maxlength="6">
+					<button type="button" id="captcha_mp3"><span></span>숫자음성듣기</button>
+					<button type="button" id="captcha_reload"><span></span>새로고침</button>
+					<span id="captcha_info">자동등록방지 숫자를 순서대로 입력하세요.</span>
+					</fieldset>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="tright">
+		<a href="javascript:;" class="send_btn cyan mt20">Send</a>
+	</div>
+<? include('../include/footer.php'); ?>

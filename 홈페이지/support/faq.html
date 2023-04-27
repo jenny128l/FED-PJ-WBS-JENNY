@@ -1,0 +1,54 @@
+<? include('../include/header.php'); ?>
+	<div class="faq"><!--button type="button" class="trigger"><span>답변 모두 여닫기</span></button-->
+			<ul>
+			<li class="article faqhide">
+				<p class="q"><a href="#a1" class="trigger"><span></span>New website has been opened</a></p>
+				<div class="a" style="display: none;"><span></span>
+					<p>iNODIC's new homepage has been opened.<br>You can find various information not only HD-SDI solution but also analogue surveillance.<br>The new update will be running. If you have any comment about this web site, please feel free t</p>
+				</div>
+			</li>
+		</ul>
+		<div class="pagination" align="center">
+			<a href="javascript:;" class="pagination_btn"><img src="../images/sub/pageing_prev02.jpg" alt=""></a>
+			<a href="javascript:;" class="pagination_btn"><img src="../images/sub/pageing_prev01.jpg" alt=""></a>
+			<strong>1</strong>
+			<a href="javascript:;">2</a>
+			<a href="javascript:;">3</a>
+			<a href="javascript:;">4</a>
+			<a href="javascript:;">5</a>
+			<a href="javascript:;" class="pagination_btn"><img src="../images/sub/pageing_next01.jpg" alt=""></a>
+			<a href="javascript:;" class="pagination_btn"><img src="../images/sub/pageing_next02.jpg" alt=""></a>
+		</div>
+	</div>
+	<script>
+		jQuery(function(){
+		var article = $('.faq .article');
+		article.addClass('faqhide');
+		article.find('.a').slideUp(100);
+
+		$('.faq .article .trigger').click(function(){
+			var myArticle = $(this).parents('.article:first');
+			if(myArticle.hasClass('faqhide')){
+				article.addClass('faqhide').removeClass('show'); // 아코디언 효과를 원치 않으면 이 라인을 지우세요
+				article.find('.a').slideUp(100); // 아코디언 효과를 원치 않으면 이 라인을 지우세요
+				myArticle.removeClass('faqhide').addClass('show');
+				myArticle.find('.a').slideDown(100);
+			} else {
+				myArticle.removeClass('show').addClass('faqhide');
+				myArticle.find('.a').slideUp(100);
+			}
+		});
+
+		$('.faq .hgroup .trigger').click(function(){
+			var hidden = $('.faq .article.faqhide').length;
+			if(hidden > 0){
+				article.removeClass('faqhide').addClass('show');
+				article.find('.a').slideDown(100);
+			} else {
+				article.removeClass('show').addClass('faqhide');
+				article.find('.a').slideUp(100);
+			}
+		});
+	});
+	</script>
+<? include('../include/footer.php'); ?>
